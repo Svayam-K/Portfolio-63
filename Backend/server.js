@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 
 // ✅ LOCAL MONGODB (NO ATLAS)
 mongoose
-  .connect("mongodb://127.0.0.1:27017/portfolio63")
+  .connect("mongodb+srv://svayamK:Bunny2468@portfolio63.xcooaj2.mongodb.net/portfolio63")
   .then(() => console.log("✅ Local MongoDB connected"))
   .catch(err => console.error("❌ MongoDB error:", err.message));
 
