@@ -35,12 +35,15 @@ const Message = mongoose.model("Message", MessageSchema);
 // ✅ CONTACT ROUTE
 app.post("/contact", async (req, res) => {
   try {
+    console.log("Incoming data:", req.body); // ADD THIS
+
     const { name, email, message } = req.body;
 
     await Message.create({ name, email, message });
 
     res.json({ success: true, message: "Message saved" });
   } catch (err) {
+    console.error("ERROR:", err); // ADD THIS
     res.status(500).json({ success: false, message: "Error saving message" });
   }
 });
