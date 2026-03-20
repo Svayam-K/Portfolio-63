@@ -7,7 +7,7 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
   const status = document.getElementById("status");
 
   try {
-    const response = await fetch("http://localhost:4000/contact", {
+    const response = await fetch("https://portfolio63-backend.onrender.com/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
