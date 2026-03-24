@@ -278,3 +278,13 @@ footer {
     flex-wrap: wrap;
     gap: 10px;
 }
+
+form {
+    position: relative;
+    z-index: 10;
+}
+
+form {
+    position: relative;
+    z-index: 10;
+}
