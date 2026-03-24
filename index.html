@@ -13,14 +13,26 @@
     <div class="blob three"></div>
 
     <nav>
-        <h1>My Portfolio</h1>
+    	<h1>My Portfolio</h1>
+    	<div class="nav-links">
+        	<a href="index.html">Home</a>
+        	<a href="projects.html">Projects</a>
+        	<a href="contact.html">Contact</a>
+	        <a href="gamedev.html">GameDev</a>
+    	</div>
     </nav>
 
     <main>
         <section class="hero">
-            <h2>Hello, I’m <span class="highlight glow">Svayam</span></h2>
-            <p>BCA Student • Web Developer • Creative Thinker</p>
-        </section>
+    		<h2>Hello, I’m <span class="highlight glow">Svayam</span></h2>
+    		<p>BCA Student • Web Developer • Creative Thinker</p>
+
+    		<br>
+
+    			<a href="projects.html">
+        		<button>View My Work</button>
+    		</a>
+	</section>
 
         <section class="card">
             <h3>About Me</h3>
@@ -55,7 +67,11 @@
 
         <section class="card">
             <h3>Project</h3>
-            <p><strong>Portfolio Website</strong></p>
+            <ul>
+    		<li><strong>Portfolio Website</strong> – Personal project</li>
+    		<li>Built using HTML, CSS, JavaScript</li>
+    		<li>Deployed using Netlify & Render</li>
+	    </ul>
             <p>
                 A single-page portfolio website developed as part of the Web Development
                 Workflow (SEC) course. This project demonstrates the use of HTML, CSS,
@@ -63,20 +79,7 @@
             </p>
         </section>
 
-        <section class="card">
-    <h3>Contact</h3>
-
-    <form id="contactForm">
-        <input type="text" id="name" placeholder="Your Name" required>
-        <input type="email" id="email" placeholder="Your Email" required>
-        <textarea id="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-    </form>
-
-    <p id="status"></p>
-
-    <hr style="margin: 15px 0; opacity: 0.3;">
-
+<section class="card contact-bar">
     <p>Email: <a href="mailto:svayamkonjengbam@gmail.com">svayamkonjengbam@gmail.com</a></p>
     <p>Phone: 8258965354 / 9148085616</p>
     <p>GitHub: <a href="https://github.com/Svayam-K" target="_blank">github.com/Svayam-K</a></p>
