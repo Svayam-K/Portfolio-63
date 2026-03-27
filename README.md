@@ -5,7 +5,7 @@ This project was developed as part of the Modern Web Development Workflow course
 
 🚀 Live Website
 
-🔗 Netlify: https://p-ort63.netlify.app/
+🔗 Netlify: https://portfolio-63-sigma.vercel.app/
 
 💻 GitHub Repository
 
